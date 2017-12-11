@@ -8,7 +8,7 @@ fn main() {
     Ok(Response::with((status::Ok, "Hello world!")))
   }
 
-  println!("Listening on port 3000");
+  println!("Listening on port 8000");
 
-  Iron::new(hello_world).http("0.0.0.0:3000").unwrap();
+  Iron::new(hello_world).http("0.0.0.0:8000").unwrap();
 }
