@@ -8,6 +8,6 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 COPY . .
-RUN npm install && npm run build
+RUN npm install && npm run build && rm ~/.npmrc
 
 CMD [ "/usr/local/bin/node", "./built.js" ]
