@@ -1,0 +1,12 @@
+{
+  "name": "the-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yes ' ' > built.js & exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
